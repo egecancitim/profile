@@ -52,6 +52,7 @@ html {
 }
 
 .beerimg {
+  width: 75%;
   border-radius: 10px;
 }
 
