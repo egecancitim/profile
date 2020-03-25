@@ -1,0 +1,98 @@
+#name {
+  font-family: 'Acme', sans-serif;
+  color: #EFF6E0;
+  letter-spacing: 10px;
+}
+
+.bio-title, h2, h3 {
+  font-family: 'Acme', sans-serif;
+  color: #EFF6E0;
+  letter-spacing: 2px;
+}
+
+.text, p {
+  font-family: 'Indie Flower', cursive;
+  color: #EFF6E0;
+  font-size: 18px;
+}
+
+.btn-red {
+  font-family: 'Baloo Tammudu 2', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: #EFF6E0;
+  background-color: #598392;
+  padding: 5px 20px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+}
+.btn-red:hover {
+  text-decoration: none;
+  color: #124559;
+  background-color: #EFF6E0;
+}
+
+.fab:hover {
+  color: white;
+}
+
+html {
+  background-color: #01161E;
+}
+
+.img_circle {
+  border-radius: 50%;
+}
+
+.beerimg {
+  border-radius: 10px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: #124559;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.list_inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list_inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list_inline i {
+  font-size: 50px;
+  color: rgb(180, 180, 180);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
