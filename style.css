@@ -1,10 +1,16 @@
 #name {
   font-family: 'Acme', sans-serif;
-  color: #AEC3B0;
+  color: #EFF6E0;
   letter-spacing: 10px;
 }
 
-.bio-title, h2, h3 {
+.bio-title {
+  font-family: 'Acme', sans-serif;
+  color: #AEC3B0;
+  letter-spacing: 2px;
+}
+
+h2, h3 {
   font-family: 'Acme', sans-serif;
   color: #EFF6E0;
   letter-spacing: 2px;
